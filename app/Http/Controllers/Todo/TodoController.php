@@ -46,7 +46,7 @@ class TodoController extends Controller
             $todos->where('date', '>=',  $request->startDate);
         }
         if(isset($request->endDate) && $request->endDate){
-            $todos->where('date', '>=',  $request->endDate);
+            $todos->where('date', '<=',  $request->endDate);
         }
         
 
