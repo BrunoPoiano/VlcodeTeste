@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{
+    --dark-text-100: hsl(0, 0%, 25%);
+    --white-text-100: #d8d8d8;
+    --border-radius: 10px;
+
+    --button-bg: hsl(0, 0%, 18%);
+    --button-bg-hover: hsl(0, 0%, 34%);
+    --gap: 10px;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding:10px;
+    background: hsl(215, 16%, 25%);
+    color: #d8d8d8;
+}
+
